@@ -2,7 +2,7 @@
 // like duplicates of package names and descriptions
 //
 var similarity = require('similarity')
-var tokenUtil = require('../token-util')
+var tokenUtil = require('./token-util')
 
 module.exports = function (md, opts) {
   if (!opts) return
